@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demoreact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demoreact/DemoreactWebPart.js",
+          "manifest": "./src/webparts/demoreact/DemoreactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+    "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+    "globalName": "jquery"
+    },
+    "bootstrap": {
+    "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+    "globalName":"bootstrap",
+    "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "DemoreactWebPartStrings": "lib/webparts/demoreact/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demoreact-client-side-solution",
+    "id": "9bd4cf37-f24d-40a9-a6bc-f9e116cdf0cc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/demoreact.sppkg"
+  }
+}

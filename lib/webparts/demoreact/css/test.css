@@ -1,0 +1,44 @@
+#workbenchPageContent { margin:0; max-width:none;}
+.top-buff {top:20px}
+p{
+    font-size: 15px;
+    color:lightgrey;
+    text-align: center;
+}
+.panel-heading {color : red}
+.btn btn-info{color: red}
+hr.solid{
+    border-top: 4px solid black;
+  }
+.chckbx{
+   
+   border:2px ;
+}
+img{
+border-radius: 8px;
+}
+.gg{
+    border:2px dotted #00f;display:block;background:#ff0000;
+}
+.scnddiv{
+    background-color:lightgrey;
+}
+.button {
+    background-color : lightsteelblue; /* Green */
+    border: none;
+    color: white;
+      padding:15px 8px;
+    text-align: center;
+    text-decoration: none; display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+#id{
+    background-color: lightsteelblue;
+}
+form-control.button{
+    background-color: lightsteelblue;
+}
